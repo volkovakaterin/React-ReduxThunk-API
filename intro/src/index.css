@@ -1,0 +1,78 @@
+.loading{
+  width: 50px;
+  height: 50px;
+  border: 8px solid gray;
+  border-radius: 50%;
+  border-left-color: black;
+  animation: loading 1.3s linear infinite;
+}
+
+@keyframes loading {
+  100% {transform: rotate(360deg);}
+}
+
+.block-error{
+width: 300px;  
+height: 50px;
+font-size: 21px;
+position: relative;
+color: red;
+background-color: pink;
+border: 2px solid red;
+}
+
+.block-error p{
+  position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.form{
+  display: flex;
+  font-size: 21px;
+}
+
+.label-filter{
+  font-size: 16px;
+  color: gray;
+}
+
+input{
+  height: 24px;
+}
+
+.form-buttons{
+  display: flex;
+}
+
+.button-save{
+  font-size: 18px;
+}
+
+.list, .save, .cancel-form{
+  font-size: 21px;
+}
+
+li{
+  margin-top: 10px;
+  font-size: 21px;
+}
+
+.content{
+  display: flex;
+  list-style: square;
+}
+
+.button-edit, .button-delete {
+  margin-left: 5px;
+}
+
+.label-change, .input-change{
+  display: block;
+}
+
+.button-change-cancel, .button-change-save{
+  margin-top: 10px;
+  margin-left: 10px;
+}
